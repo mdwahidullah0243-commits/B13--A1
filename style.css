@@ -314,36 +314,47 @@ footer {
     justify-content: space-between;
     align-items: center;
 }
+#social-content h3 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
 #social-media {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    gap: 16px;
+    gap: 14px;
+    margin-top: 16px;
 }
 #social-media .content {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     background: #FFFFFF;
     border-radius: 50%;
 }
 #social-media .c-1 {
     background-image: url('./assets/x.png');
     background-repeat: no-repeat;
+    background-size: 20px;
     background-position: center;
 }
-#social-media .c-1 {
+#social-media .c-2 {
     background-image: url('./assets/linkedin.png');
     background-repeat: no-repeat;
+    background-size: 20px;
     background-position: center;
 }
-#social-media .c-1 {
+#social-media .c-3 {
     background-image: url('./assets/facebook.png');
     background-repeat: no-repeat;
+    background-size: 20px;
     background-position: center;
 }
 
 #copyright {
-    border-top: 1px solid #FAFAFA;
+    border-top: 0.3px solid #fafafa36;
+    padding-top: 30px;
+    margin-top: 80px;
 }
 #copyright p {
     text-align: center;
