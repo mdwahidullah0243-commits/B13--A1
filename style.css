@@ -6,11 +6,6 @@
     font-optical-sizing: auto;
 }
 
-/* body {
-    max-width: 85%;
-    margin: 0px auto;
-} */
-
 /* Shared Style */
 
 .btn {
@@ -115,4 +110,88 @@ nav {
     background-repeat: no-repeat;
     background-size: 24px 24px;
     background-position: 3% center;
+}
+
+#note {
+    padding: 120px;
+}
+
+#note-heading h2 {
+    color: rgba(0, 25, 49, 1);
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#note-heading p {
+    color: rgba(98, 115, 130, 1);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 16px;
+}
+
+#note-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    margin-top: 44px;
+}
+
+.note-card {
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 1);
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.note-card .icon {
+    width: 60px;
+    height: 60px;
+    background: rgba(249, 85, 85, 1);
+    border-radius: 50%;
+}
+
+.note-card .i-1 {
+    background-image: url('./assets/Vector.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.note-card .i-2 {
+    background-image: url('./assets/Bookmarks.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.note-card .i-3 {
+    background-image: url('./assets/Brain.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.note-card .i-4 {
+    background-image: url('./assets/Info.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.note-card h3 {
+    color: rgba(0, 25, 49, 1);
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.note-card p {
+    color: rgba(98, 115, 130, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
 }
